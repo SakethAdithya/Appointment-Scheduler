@@ -1,0 +1,191 @@
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Backend
+backend/node_modules/
+backend/.env
+backend/.env.local
+backend/npm-debug.log*
+
+# React / Admin Panel
+admin-panel/node_modules/
+admin-panel/build/
+admin-panel/.env.local
+admin-panel/.env.development.local
+admin-panel/.env.test.local
+admin-panel/.env.production.local
+admin-panel/npm-debug.log*
+admin-panel/yarn-debug.log*
+admin-panel/yarn-error.log*
+
+# Flutter / Dart
+user_app/.dart_tool/
+user_app/.flutter-plugins
+user_app/.flutter-plugins-dependencies
+user_app/.packages
+user_app/.pub-cache/
+user_app/.pub/
+user_app/build/
+user_app/.idea/
+user_app/*.iml
+user_app/local.properties
+
+# Flutter iOS
+user_app/ios/Pods/
+user_app/ios/.symlinks/
+user_app/ios/Flutter/Flutter.framework
+user_app/ios/Flutter/Flutter.podspec
+user_app/ios/Flutter/Generated.xcconfig
+user_app/ios/Flutter/ephemeral/
+user_app/ios/Flutter/app.flx
+user_app/ios/Flutter/app.zip
+user_app/ios/Flutter/flutter_assets/
+user_app/ios/Flutter/flutter_export_environment.sh
+user_app/ios/ServiceDefinitions.json
+user_app/ios/Runner/GeneratedPluginRegistrant.*
+
+# Flutter Android
+user_app/android/.gradle/
+user_app/android/captures/
+user_app/android/gradlew
+user_app/android/gradlew.bat
+user_app/android/local.properties
+user_app/android/.idea/
+user_app/android/app/build/
+user_app/android/build/
+user_app/android/.DS_Store
+user_app/android/key.properties
+*.jks
+
+# Flutter Web
+user_app/web/
+
+# Flutter macOS
+user_app/macos/Flutter/GeneratedPluginRegistrant.swift
+user_app/macos/Flutter/ephemeral/
+
+# Flutter Windows
+user_app/windows/flutter/generated_plugin_registrant.cc
+user_app/windows/flutter/generated_plugin_registrant.h
+user_app/windows/flutter/generated_plugins.cmake
+
+# Flutter Linux
+user_app/linux/flutter/generated_plugin_registrant.cc
+user_app/linux/flutter/generated_plugin_registrant.h
+user_app/linux/flutter/generated_plugins.cmake
+
+# IDE - VSCode
+.vscode/
+*.code-workspace
+
+# IDE - IntelliJ IDEA / Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# IDE - Eclipse
+.classpath
+.project
+.settings/
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output/
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache
+.cache
+.parcel-cache
+
+# next.js build output
+.next
+
+# nuxt.js build output
+.nuxt
+
+# vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Backup files
+*.bak
+*.backup
