@@ -8,7 +8,6 @@ A full-stack appointment scheduling system with a Flutter mobile app for users a
 - [Tech Stack](#tech-stack)
 - [Prerequisites](#prerequisites)
 - [Setup Instructions](#setup-instructions)
-- [Credentials](#credentials)
 - [System Logic & Architecture](#system-logic--architecture)
 - [API Endpoints](#api-endpoints)
 - [Project Structure](#project-structure)
@@ -218,26 +217,6 @@ The admin panel will open at `http://localhost:3000`
 
 ---
 
-## 🔐 Credentials
-
-### Admin Account
-- **Email**: `admin@example.com`
-- **Password**: `admin123`
-- **Access**: Admin Panel (React) - `http://localhost:3000`
-
-### User Account
-- **Email**: `sakethpatike15@gmail.com`
-- **Password**: `Saketh@2004`
-- **Access**: Flutter User App
-
-### Additional Test Users (Created by seed script)
-- **Email**: `john@example.com`
-- **Password**: `user123`
-
-- **Email**: `jane@example.com`
-- **Password**: `user123`
-
----
 
 ## 🧠 System Logic & Architecture
 
